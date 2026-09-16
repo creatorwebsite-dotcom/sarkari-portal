@@ -1,0 +1,34 @@
+name: Sarkari Live Auto Feeder
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install curl_cffi beautifulsoup4
+
+      - name: Execute Scraper
+        run: python scraper.py
+
+      - name: Auto Push Live JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add live_portal_data.json
+          git commit -m "Auto sync live feeds [skip ci]" || exit 0
+          git push
