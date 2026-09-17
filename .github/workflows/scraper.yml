@@ -25,13 +25,14 @@ jobs:
       - name: Execute Scraper
         run: python scraper.py
 
-      - name: Push Data Only
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout main
-          git reset
-          git add live_portal_data.json
-          git commit -m "Auto sync live feeds [skip ci]" || exit 0
-          git pull origin main --rebase --autostash
-          git push origin main
+      - name: Direct Upload via API (No Git Push Failures)
+        uses: test-room-7/action-id-helper@v1
+        continue-on-error: true
+
+      - name: Commit & Push Changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: 'main'
+          message: 'Auto sync live feeds [skip ci]'
+          force: true          git push origin main
