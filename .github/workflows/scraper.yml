@@ -25,11 +25,13 @@ jobs:
       - name: Execute Scraper
         run: python scraper.py
 
-      - name: Publish Live Data Directly
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: "live-data"
-          name: "Live Feed Data"
-          files: live_portal_data.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push Data Only
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git reset
+          git add live_portal_data.json
+          git commit -m "Auto sync live feeds [skip ci]" || exit 0
+          git pull origin main --rebase --autostash
+          git push origin main
