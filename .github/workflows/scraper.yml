@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -25,11 +27,9 @@ jobs:
       - name: Execute Scraper
         run: python scraper.py
 
-      - name: Auto Push Live JSON
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin main --rebase --autostash
-          git add live_portal_data.json
-          git commit -m "Auto sync live feeds [skip ci]" || exit 0
-          git push origin main
+      - name: Auto Commit and Push Live JSON
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto sync live feeds [skip ci]"
+          file_pattern: "live_portal_data.json"
+          skip_dirty_check: false
