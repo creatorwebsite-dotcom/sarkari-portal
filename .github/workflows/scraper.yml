@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  scrape:
+  scrape-and-update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
