@@ -1,566 +1,673 @@
 {
-  "trending_boxes": [],
-  "latest_jobs": [],
-  "results": [
+  "trending_boxes": [
     {
-      "title": "India Post Office GDS Form (23757 Posts)",
-      "url": "https://sarkariresult.com.cm/india-post-gds-july-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "IBPS RRB 15th Form (13706 Posts)",
-      "url": "https://sarkariresult.com.cm/ibps-rrb-15th-2026/",
-      "state": "central",
-      "job_type": "banking"
-    },
-    {
-      "title": "Rajasthan Safai Karmchari (24,752 Posts)",
-      "url": "https://sarkariresult.com.cm/rajasthan-safai-karmchari-2026/",
-      "state": "rajasthan",
-      "job_type": "civil"
-    },
-    {
-      "title": "UPESSC Assistant Teacher Form (12405 Posts)",
-      "url": "https://sarkariresult.com.cm/upessc-prt-assistant-teacher-2026/",
-      "state": "central",
-      "job_type": "teaching"
-    },
-    {
-      "title": "SSC CHSL Online Form (2536 Posts)",
-      "url": "https://sarkariresult.com.cm/ssc-chsl-sep-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "SSC Junior Engineer JE Form (1748 Posts)",
-      "url": "https://sarkariresult.com.cm/ssc-je-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "BPSC School Teacher Form (32,388 Posts)",
-      "url": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/",
-      "state": "bihar",
-      "job_type": "teaching"
-    },
-    {
-      "title": "UPTET 2026 Result Notice",
-      "url": "https://sarkariresult.com.cm/uptet-2026/",
-      "state": "central",
-      "job_type": "teaching"
-    },
-    {
-      "title": "RRB Junior Engineer JE CBT-2 Result 2026 – Out",
-      "url": "https://sarkariresult.com.cm/rrb-junior-engineer-je-2026/",
-      "state": "central",
-      "job_type": "railway"
-    },
-    {
-      "title": "RPSC SI / Platoon Commander PET Result 2026",
-      "url": "https://sarkariresult.com.cm/rpsc-si-platoon-commander-2026/",
-      "state": "rajasthan",
-      "job_type": "police-defence"
-    },
-    {
-      "title": "Indian Overseas Bank IOB Apprentice Result 2026",
-      "url": "https://sarkariresult.com.cm/iob-apprentice-2026/",
-      "state": "central",
-      "job_type": "banking"
-    },
-    {
-      "title": "IBPS Clerk 15th Reserve List 2026 – Out",
-      "url": "https://sarkariresult.com.cm/ibps-clerk-csa-xv-2025/",
-      "state": "central",
-      "job_type": "banking"
-    },
-    {
-      "title": "Bihar Vidhan Parishad LDC / DEO Final Result 2026",
-      "url": "https://sarkariresult.com.cm/bihar-vidhan-parishad-pa-deo-ldc-steno-2026/",
-      "state": "bihar",
-      "job_type": "civil"
-    },
-    {
-      "title": "Bihar BSEB DElEd 3rd Merit List 2026",
-      "url": "https://sarkariresult.com.cm/bihar-bseb-deled-2026/",
-      "state": "bihar",
-      "job_type": "civil"
-    },
-    {
-      "title": "UPSSSC Lekhpal Mains Result 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsssc-lekhpal-2026/",
-      "state": "up",
-      "job_type": "civil"
-    },
-    {
-      "title": "EMRS Teaching/ Non Teaching Tier-II Result 2026 – Updated",
-      "url": "https://sarkariresult.com.cm/emrs-teaching-non-teaching-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "NTA UGC NET June Result / Score Card 2026",
-      "url": "https://sarkariresult.com.cm/nta-ugc-net-june-2025/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "UPPSC ATP Pre Result 2026 – Out",
-      "url": "https://sarkariresult.com.cm/uppsc-atp-2025/",
-      "state": "up",
-      "job_type": "civil"
-    },
-    {
-      "title": "UP TGT 2022 College Allotment Result",
-      "url": "https://sarkariresult.com.cm/up-tgt-2026/",
-      "state": "up",
-      "job_type": "teaching"
-    },
-    {
-      "title": "UPSSSC Junior Assistant, Clerk Grade II 2023 Final Result",
-      "url": "https://sarkariresult.com.cm/upsssc-jr-assistant-08-2023/",
-      "state": "up",
-      "job_type": "civil"
-    },
-    {
-      "title": "AFCAT 02/2026 Result – Out",
-      "url": "https://sarkariresult.com.cm/afcat-02-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "UPSC CAPF AC Name Wise Result 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsc-capf-ac-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "Railway RRB Group D Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/railway-rrb-group-d-level-1-recruitment-2026-online/",
-      "state": "up",
-      "job_type": "railway"
-    },
-    {
-      "title": "UPSSSC Nakshanavish and Manchitrak 2023 Mains Result",
-      "url": "https://sarkariresult.com.cm/upsssc-nakshanavish-and-manchitrak-2023-eligibility-result/",
-      "state": "up",
-      "job_type": "civil"
-    },
-    {
-      "title": "BCECE Admission 2026 Mop-up Allotment Result",
-      "url": "https://sarkariresult.com.cm/bcece-admission-2026/",
-      "state": "up",
-      "job_type": "civil"
-    },
-    {
-      "title": "RPSC Deputy Jailor PET Result 2026",
-      "url": "https://sarkariresult.com.cm/rpsc-deputy-jailor-result-2025/",
-      "state": "rajasthan",
-      "job_type": "civil"
-    },
-    {
-      "title": "UPPSC Computer Assistant Typing Test Result 2026",
-      "url": "https://sarkariresult.com.cm/uppsc-computer-assistant-2026/",
-      "state": "up",
-      "job_type": "civil"
-    },
-    {
-      "title": "UPPSC LT Grade Assistant Teacher Mains Result 2026",
-      "url": "https://sarkariresult.com.cm/uppsc-lt-grade-assistant-teacher-2026/",
-      "state": "up",
-      "job_type": "teaching"
-    },
-    {
-      "title": "UPSC CMS Result 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsc-cms-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "CGPSC SSE PCS Mains Result 2026",
-      "url": "https://sarkariresult.com.cm/cgpsc-sse-pcs-pre-2025/",
-      "state": "central",
-      "job_type": "civil"
-    }
-  ],
-  "admit_cards": [
-    {
-      "title": "Admit Card",
-      "url": "https://sarkariresult.com.cm/admit-card/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "UPSSSC Excise Constable Admit Card 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsssc-excise-constable-2026/",
-      "state": "up",
-      "job_type": "police-defence"
-    },
-    {
-      "title": "UPSSSC Pharmacist Ayurvedic Admit Card 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsssc-pharmacist-ayurvedic-2024/",
-      "state": "up",
-      "job_type": "civil"
-    },
-    {
-      "title": "RPSC Factories & Boiler Inspector Admit Card 2026",
-      "url": "https://sarkariresult.com.cm/rpsc-factories-boiler-inspector-2025/",
-      "state": "rajasthan",
-      "job_type": "civil"
-    },
-    {
-      "title": "UPCISB UP Cooperative Bank Various Post Admit Card 2026",
-      "url": "https://sarkariresult.com.cm/upcisb-cooperative-bank-2026/",
-      "state": "up",
-      "job_type": "banking"
-    },
-    {
-      "title": "SBI Junior Associates Clerk PET Admit Card 2026",
-      "url": "https://sarkariresult.com.cm/sbi-junior-associates-clerk-2026/",
-      "state": "central",
-      "job_type": "banking"
-    },
-    {
-      "title": "UPESSC Principal Admit Card 2026",
-      "url": "https://sarkariresult.com.cm/upessc-principal-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "SSC Selection Phase 14 Admit Card 2026 – Out",
-      "url": "https://sarkariresult.com.cm/ssc-selection-phase-14-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "RRB NTPC 10+2 UG CBT-II Admit Card 2026 – Out",
-      "url": "https://sarkariresult.com.cm/rrb-ntpc-inter-level-2025/",
-      "state": "central",
-      "job_type": "railway"
-    },
-    {
-      "title": "Patna High Court Assistant Admit Card 2026 – Out",
-      "url": "https://sarkariresult.com.cm/patna-high-court-assistant-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "NBEMS Group A, B & C Various Post Admit Card 2026",
-      "url": "https://sarkariresult.com.cm/nbems-various-post-2026/",
-      "state": "up",
-      "job_type": "civil"
-    },
-    {
-      "title": "Uttarakhand TET Admit Card 2026",
-      "url": "https://sarkariresult.com.cm/utet-2026/",
-      "state": "central",
-      "job_type": "teaching"
-    },
-    {
-      "title": "CGPSC Assistant District Prosecution Officer ADPO Admit Card 2026",
-      "url": "https://sarkariresult.com.cm/cgpsc-adpo-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "MPPSC Assistant Town Planner Admit Card 2026",
-      "url": "https://sarkariresult.com.cm/mppsc-assistant-town-planner-2026/",
+      "title": "MPESB MP Police Constable Online Form 2026 (7500 Posts)",
       "state": "mp",
-      "job_type": "civil"
+      "job": "police",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "MPESB Krashi Vistar Adhikari Admit Card 2026",
-      "url": "https://sarkariresult.com.cm/mpesb-krashi-vistar-adhikari/",
-      "state": "central",
-      "job_type": "civil"
+      "title": "India Post GDS Online Form 2026 (23,757 Posts)",
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "NIELIT CCC Online Form, Admit Card, Result 2026",
-      "url": "https://sarkariresult.com.cm/nielit-ccc-exam-2026/",
-      "state": "central",
-      "job_type": "civil"
+      "title": "SSC CHSL 10+2 Online Form 2026",
+      "state": "all",
+      "job": "ssc",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UKSSSC Group C Scaler Online Form 2026",
+      "state": "up",
+      "job": "ssc",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "RRC ECOR Apprentice Online Form 2026",
+      "state": "all",
+      "job": "railway",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "MPESB Group 3 Sub Engineer & Other Post Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     }
   ],
-  "answer_keys": [
+  "latest_jobs": [
     {
-      "title": "Answer Key",
-      "url": "https://sarkariresult.com.cm/answer-key/",
-      "state": "central",
-      "job_type": "civil"
+      "title": "MPESB MP Police Constable Online Form 2026 (7500 Posts)",
+      "state": "mp",
+      "job": "police",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "Railway RRB Group D Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/railway-rrb-group-d-level-1-recruitment-2026-online/",
+      "title": "India Post GDS Online Form 2026 (23,757 Posts)",
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "SSC CHSL 10+2 Online Form 2026",
+      "state": "all",
+      "job": "ssc",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UKSSSC Group C Scaler Online Form 2026",
       "state": "up",
-      "job_type": "railway"
+      "job": "ssc",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "UPSC NDA II Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsc-nda-2-2026/",
-      "state": "central",
-      "job_type": "civil"
+      "title": "RRC ECOR Apprentice Online Form 2026",
+      "state": "all",
+      "job": "railway",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "UPSC CDS-II Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsc-cds-2-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "UPSSSC Teacher Cadre JTC Final Answer Key 2026",
-      "url": "https://sarkariresult.com.cm/upsssc-teacher-cadre-jtc-2026/",
+      "title": "MPESB Group 3 Sub Engineer & Other Post Online Form 2026",
       "state": "up",
-      "job_type": "teaching"
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "UPSSSC Assistant Boring Technician Final Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsssc-assistant-boring-technician-2026/",
-      "state": "up",
-      "job_type": "civil"
+      "title": "PGCIL Apprentice Online Form 2026",
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "BSF HCM & ASI Steno Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/bsf-hcm-asi-steno-2025/",
-      "state": "central",
-      "job_type": "police-defence"
-    },
-    {
-      "title": "RPSC Statistical Officer Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/rpsc-statistical-officer-recruitment-2025-start/",
+      "title": "Rajasthan Safai Karmchari Online Form 2026 (24,752 posts)",
       "state": "rajasthan",
-      "job_type": "civil"
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "RPSC APO Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/rpsc-apo-2026/",
-      "state": "rajasthan",
-      "job_type": "civil"
+      "title": "RRC SR Apprentice Online Form 2026 (4471 Posts)",
+      "state": "all",
+      "job": "railway",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "NTA AIAPGET Answer Key 2026",
-      "url": "https://sarkariresult.com.cm/nta-aiapget-2026/",
-      "state": "central",
-      "job_type": "civil"
+      "title": "Railway ICF Apprentice Online Form 2026",
+      "state": "all",
+      "job": "railway",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "CCI Various Post Answer Key 2026",
-      "url": "https://sarkariresult.com.cm/cci-various-post-2026/",
-      "state": "central",
-      "job_type": "civil"
+      "title": "RCF Kapurthala Apprentice Online Form 2026",
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "BSNL Junior Telecom Officer JTO Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/bsnl-junior-telecom-officer-jto-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "UPSSSC Lower PCS Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsssc-lower-pcs-2026/",
+      "title": "UKSSSC Group C Various Post Online Form 2026",
       "state": "up",
-      "job_type": "civil"
+      "job": "ssc",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "UPSSSC BCG Technician Final Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsssc-bcg-technician-2024/",
-      "state": "up",
-      "job_type": "civil"
+      "title": "Odisha Anganwadi Bharti Online Form 2026",
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "UPSSSC UP Pollution Control Board Various Post Final Answer Key 2026 – Out",
-      "url": "https://sarkariresult.com.cm/upsssc-up-pollution-control-board-2026/",
+      "title": "UPSSSC Junior Engineer JE (Agriculture) Online Form 2026",
       "state": "up",
-      "job_type": "civil"
+      "job": "ssc",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Mainpuri ECCE Educator Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Etah ECCE Educator Online Form 2026 – Last Date Today",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Dairy Development DEO Data Entry Operator Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Kaushal Vikas Mission Block Program Manager Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UPBOCW Computer Operator Online Form 2026",
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Siddharth Nagar ECCE Educator Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Madhyamik Shiksha Vibhag Watch Man Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Madhyamik Shiksha Vibhag Sweeper Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Madhyamik Shiksha Vibhag Peon Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Azamgarh ECCE Educator Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Moradabad ECCE Educator Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Mirzapur ECCE Educator Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UP Banda ECCE Educator Online Form 2026",
+      "state": "up",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     }
   ],
+  "results": [],
+  "admit_cards": [],
+  "answer_keys": [],
   "syllabus": [
     {
-      "title": "UPESSC PRT Assistant Teacher Online Form 2026 (12405 Post)",
-      "url": "https://sarkariresult.com.cm/upessc-prt-assistant-teacher-2026/",
-      "state": "central",
-      "job_type": "teaching"
-    },
-    {
-      "title": "Bank Of Baroda LBO Online Form 2026 (2482 Posts)",
-      "url": "https://sarkariresult.com.cm/2026-bank-of-baroda-lbo-aug26/",
-      "state": "central",
-      "job_type": "banking"
-    },
-    {
-      "title": "RRB Junior Engineer JE Exam Date 2026",
-      "url": "https://sarkariresult.com.cm/rrb-je-2026/",
-      "state": "central",
-      "job_type": "railway"
-    },
-    {
-      "title": "ISRO ICRB Scientist / Engineer Online Form 2026 – Last Date Today",
-      "url": "https://sarkariresult.com.cm/isro-icrb-scientist-engineer-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "Bihar STET Online Form 2026 – Extend",
-      "url": "https://sarkariresult.com.cm/bihar-stet-2026/",
+      "title": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
       "state": "bihar",
-      "job_type": "teaching"
+      "job": "teacher",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "CTET September Exam Date 2026",
-      "url": "https://sarkariresult.com.cm/ctet-september-2026/",
-      "state": "central",
-      "job_type": "teaching"
+      "title": "UPESSC PRT Assistant Teacher Online Form 2026 (12405 Post)",
+      "state": "all",
+      "job": "teacher",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "IBPS RRB 15th Online Form 2026 (13,706 Posts)",
-      "url": "https://sarkariresult.com.cm/ibps-rrb-15th-2026/",
-      "state": "central",
-      "job_type": "banking"
+      "state": "all",
+      "job": "railway",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "Bank Of Baroda LBO Online Form 2026 (2482 Posts) – Last Date Today",
+      "state": "all",
+      "job": "bank",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "RRB Junior Engineer JE Exam Date 2026",
+      "state": "all",
+      "job": "railway",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "ISRO ICRB Scientist / Engineer Online Form 2026",
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "CTET September Exam Date 2026",
+      "state": "all",
+      "job": "teacher",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "UPSC EPFO / APFC Online Form 2026",
-      "url": "https://sarkariresult.com.cm/upsc-epfo-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "MPESB MP Police Constable Online Form 2026 (7500 Posts)",
-      "url": "https://sarkariresult.com.cm/2026-mp-police-constable-sep26/",
-      "state": "mp",
-      "job_type": "police-defence"
-    },
-    {
-      "title": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
-      "url": "https://sarkariresult.com.cm/bpsc-school-teacher-tre-4-0-2026/",
-      "state": "bihar",
-      "job_type": "teaching"
+      "state": "all",
+      "job": "upsc",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "SSC Junior Engineer JE Online Form 2026",
-      "url": "https://sarkariresult.com.cm/ssc-je-2026/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "ssc",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "AAI Junior Executive & Manager Online Form 2026",
-      "url": "https://sarkariresult.com.cm/aai-junior-executive-manager-2026/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "NIELIT CCC Online Form, Admit Card, Result 2026",
-      "url": "https://sarkariresult.com.cm/nielit-ccc-exam-2026/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "Syllabus",
-      "url": "https://sarkariresult.com.cm/syllabus/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     }
   ],
   "admission": [
     {
       "title": "IIM CAT 2026 Online Form – Date Extend",
-      "url": "https://sarkariresult.com.cm/iim-cat-2026/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "Bihar STET Online Form 2026 – Extend",
-      "url": "https://sarkariresult.com.cm/bihar-stet-2026/",
       "state": "bihar",
-      "job_type": "teaching"
+      "job": "teacher",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "Allahabad University PHd Online Form 2026",
-      "url": "https://sarkariresult.com.cm/allahabad-phd-admission-2026/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "NVS Class 11th Online Form 2027-28",
-      "url": "https://sarkariresult.com.cm/nvs-class-11th-form-2027-28/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "NVS Class 9th Online Form 2027-28",
-      "url": "https://sarkariresult.com.cm/nvs-class-9th-2026/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "IIT GATE 2027 Online Form – Start",
-      "url": "https://sarkariresult.com.cm/iit-gate-2027/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "AIBE 22th Online Form 2026",
-      "url": "https://sarkariresult.com.cm/2026-aibe-22th-aug26/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "IIT JAM 2027 Online Form",
-      "url": "https://sarkariresult.com.cm/iit-jam-2027/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "CLAT Online Form 2026 – Start",
-      "url": "https://sarkariresult.com.cm/clat-2026/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "Bihar BSEB DELED Spot Admission 2025-27",
-      "url": "https://sarkariresult.com.cm/bihar-bseb-deled-spot-admission-2025-27/",
       "state": "bihar",
-      "job_type": "civil"
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "BCECE Mop-Up Revised Counselling Schedule 2025",
-      "url": "https://sarkariresult.com.cm/bcece-online-mop-up-counselling-2025/",
       "state": "up",
-      "job_type": "civil"
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "Bihar ITI CAT Offline Mop-Up Counselling 2025",
-      "url": "https://sarkariresult.com.cm/bihar-iti-cat-2025-offline-mop-up-counselling-date-extended/",
       "state": "up",
-      "job_type": "civil"
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "UP Polytechnic JEECUP Online Counseling 2025",
-      "url": "https://sarkariresult.com.cm/up-polytechnic-jeecup-online-counseling-2025/",
       "state": "up",
-      "job_type": "civil"
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "MUIT Diploma Admissions Online Form 2025",
-      "url": "https://sarkariresult.com.cm/muit-diploma-admissions-online-form-2025/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
       "title": "Mathura PVT Online Form 2025 – Date Extend",
-      "url": "https://sarkariresult.com.cm/mathura-pvt-online-form-2025-date-extend/",
-      "state": "central",
-      "job_type": "civil"
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     },
     {
-      "title": "Admission",
-      "url": "https://sarkariresult.com.cm/admission/",
-      "state": "central",
-      "job_type": "civil"
-    },
-    {
-      "title": "BCECE Admission 2026 Mop-up Allotment Result",
-      "url": "https://sarkariresult.com.cm/bcece-admission-2026/",
-      "state": "up",
-      "job_type": "civil"
+      "title": "View More",
+      "state": "all",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
     }
   ]
 }
