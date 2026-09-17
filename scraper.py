@@ -10,20 +10,57 @@ def clean(text):
         return ""
     return re.sub(r'\s+', ' ', text).strip()
 
+def is_junk(title, url):
+    low = (title + " " + url).lower()
+    junk = [
+        'whatsapp', 'telegram', 'meditation', 'tools', 'youtube',
+        'facebook', 'twitter', 'instagram', 'contact', 'disclaimer',
+        'privacy policy', 'sarkari result', 'sarkariresult', 'view more',
+        'click here', 'crack exams'
+    ]
+    return any(w in low for w in junk) or len(title) < 5
+
+def detect_state(text):
+    low = text.lower()
+    states = {
+        'up': ['up ', 'uttar pradesh', 'upsssc', 'uppsc', 'up police'],
+        'bihar': ['bihar', 'bpsc', 'bssc'],
+        'delhi': ['delhi', 'dsssb'],
+        'rajasthan': ['rajasthan', 'rpsc', 'rsmssb'],
+        'mp': ['mp ', 'madhya pradesh', 'mppsc', 'vyapam'],
+        'central': ['ssc', 'upsc', 'railway', 'rrb', 'ibps', 'nta', 'army', 'navy', 'airforce']
+    }
+    for st, keys in states.items():
+        if any(k in low for k in keys):
+            return st
+    return 'central'
+
+def detect_job_type(text):
+    low = text.lower()
+    if any(k in low for k in ['police', 'constable', 'si ', 'army', 'navy', 'airforce', 'defence', 'nda', 'cds']):
+        return 'police-defence'
+    if any(k in low for k in ['teacher', 'tgt', 'pgt', 'prt', 'tet', 'ctet', 'school']):
+        return 'teaching'
+    if any(k in low for k in ['bank', 'ibps', 'sbi', 'rbi']):
+        return 'banking'
+    if any(k in low for k in ['railway', 'rrb', 'ntpc']):
+        return 'railway'
+    if any(k in low for k in ['ssc', 'upsc', 'clerk', 'officer', 'assistant']):
+        return 'civil'
+    return 'other'
+
 def run_scraper():
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     }
 
-    print("Fetching portal...")
+    print("Fetching site...")
     resp = requests.get(TARGET_URL, headers=headers, impersonate="chrome120", timeout=30)
     if resp.status_code != 200:
-        print(f"Failed with status: {resp.status_code}")
         return
 
     soup = BeautifulSoup(resp.text, "html.parser")
-
-    final_data = {
+    data = {
         "trending_boxes": [],
         "latest_jobs": [],
         "results": [],
@@ -33,73 +70,60 @@ def run_scraper():
         "admission": []
     }
 
-    # 1. Trending Boxes
+    # 1. Top 6 Trending Forms (Strict Form Filtering)
     for a in soup.find_all('a'):
         t = clean(a.get_text())
         u = a.get('href', '')
-        if not u or u.startswith('#') or 'javascript' in u:
+        if not u or u.startswith('#') or is_junk(t, u):
             continue
         low = t.lower()
-        if any(w in low for w in ['post', 'form', 'recruitment', 'teacher', 'constable', 'admit card', 'result']):
-            if 8 < len(t) < 70 and not any(x['url'] == u for x in final_data['trending_boxes']):
-                final_data['trending_boxes'].append({"title": t, "url": u})
-        if len(final_data['trending_boxes']) >= 12:
+        if any(w in low for w in ['form', 'post', 'recruitment', 'bharti', 'online form']) and not any(k in low for k in ['admit', 'result', 'key']):
+            if 8 < len(t) < 65 and not any(x['url'] == u for x in data['trending_boxes']):
+                data['trending_boxes'].append({"title": t, "url": u})
+        if len(data['trending_boxes']) >= 6:
             break
 
-    # 2. Category Blocks Parsing
-    blocks = soup.find_all(['div', 'td', 'section'])
-    for b in blocks:
-        header = b.find(['h1', 'h2', 'h3', 'h4', 'th', 'b', 'strong'])
-        if not header:
+    # 2. Extract Category Sections
+    for block in soup.find_all(['div', 'td', 'table', 'section']):
+        head = block.find(['h1', 'h2', 'h3', 'h4', 'th', 'b', 'strong'])
+        if not head:
             continue
-        h_text = clean(header.get_text()).lower()
-
+        htxt = clean(head.get_text()).lower()
         cat = None
-        if 'latest' in h_text or 'job' in h_text:
-            cat = 'latest_jobs'
-        elif 'result' in h_text:
+
+        if 'result' in htxt and 'answer' not in htxt:
             cat = 'results'
-        elif 'admit' in h_text or 'hall' in h_text:
+        elif 'admit' in htxt or 'hall ticket' in htxt:
             cat = 'admit_cards'
-        elif 'answer' in h_text or 'key' in h_text:
+        elif 'latest' in htxt or ('job' in htxt and 'answer' not in htxt):
+            cat = 'latest_jobs'
+        elif 'answer' in htxt or 'key' in htxt:
             cat = 'answer_keys'
-        elif 'syllabus' in h_text:
+        elif 'syllabus' in htxt:
             cat = 'syllabus'
-        elif 'admission' in h_text:
+        elif 'admission' in htxt:
             cat = 'admission'
 
-        if cat and len(final_data[cat]) == 0:
-            for link in b.find_all('a'):
-                title = clean(link.get_text())
-                url = link.get('href', '')
-                if title and url and len(title) > 4 and not url.startswith('#'):
-                    low = title.lower()
-                    if low in ['sarkari result', 'sarkariresult', 'view more', 'click here']:
-                        continue
-                    if not any(item['url'] == url for item in final_data[cat]):
-                        final_data[cat].append({"title": title, "url": url})
-                if len(final_data[cat]) >= 30:
+        if cat and len(data[cat]) == 0:
+            for link in block.find_all('a'):
+                lt = clean(link.get_text())
+                lu = link.get('href', '')
+                if not lu or lu.startswith('#') or is_junk(lt, lu):
+                    continue
+                if not any(it['url'] == lu for it in data[cat]):
+                    data[cat].append({
+                        "title": lt,
+                        "url": lu,
+                        "state": detect_state(lt),
+                        "job_type": detect_job_type(lt)
+                    })
+                if len(data[cat]) >= 40:
                     break
 
-    # 3. Fallback Search
-    for a in soup.find_all('a'):
-        t = clean(a.get_text())
-        u = a.get('href', '')
-        low = t.lower()
-        if not u or u.startswith('#') or len(t) < 6:
-            continue
-
-        if 'answer key' in low and not any(x['url'] == u for x in final_data['answer_keys']):
-            final_data['answer_keys'].append({"title": t, "url": u})
-        elif 'syllabus' in low and not any(x['url'] == u for x in final_data['syllabus']):
-            final_data['syllabus'].append({"title": t, "url": u})
-        elif ('admission' in low or 'entrance' in low) and not any(x['url'] == u for x in final_data['admission']):
-            final_data['admission'].append({"title": t, "url": u})
-
     with open("live_portal_data.json", "w", encoding="utf-8") as f:
-        json.dump(final_data, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("Success: Generated full JSON!")
+    print("Generated live_portal_data.json successfully")
 
 if __name__ == "__main__":
     run_scraper()
