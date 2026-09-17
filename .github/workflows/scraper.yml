@@ -7,15 +7,18 @@ on:
     - cron: '0 15 * * *'   # 08:30 PM IST
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -30,5 +33,5 @@ jobs:
           git config --global user.name "SarkariNaukar-Bot"
           git config --global user.email "bot@sarkarinaukar.local"
           git add live_portal_data.json
-          git commit -m "Auto-sync recruitment notices [11:00 AM / 5:00 PM / 8:30 PM IST]" || exit 0
+          git commit -m "Auto-sync recruitment notices" || exit 0
           git push
