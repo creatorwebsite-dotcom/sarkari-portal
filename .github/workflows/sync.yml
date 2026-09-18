@@ -13,10 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -30,13 +32,11 @@ jobs:
 
       - name: Verify Generated Database
         run: |
-          ls -la jobs_database.json || echo "File not found!"
-          cat jobs_database.json | head -n 30 || true
+          ls -lh jobs_database.json || echo "Database file missing!"
 
       - name: Commit and Push Updated Data
         run: |
-          git config --global user.name "Sarkari-Naukar-Bot"
-          git config --global user.email "bot@sarkarinaukar.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f jobs_database.json downloads/
-          git status
-          git diff --staged --quiet || (git commit -m "Auto-Sync: Fresh Jobs Database [skip ci]" && git push origin HEAD:main)
+          git diff --staged --quiet || (git commit -m "Auto-Sync: Fresh Jobs Database [skip ci]" && git push origin HEAD)
