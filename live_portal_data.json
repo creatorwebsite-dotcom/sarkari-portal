@@ -1,6 +1,17 @@
 {
   "trending_boxes": [
     {
+      "title": "MPESB Subedar Steno, ASI Online Form 2026",
+      "state": "all",
+      "job": "police",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
       "title": "MPESB MP Police Constable Online Form 2026 (7500 Posts)",
       "state": "mp",
       "job": "police",
@@ -34,31 +45,20 @@
       "official": "https://ssc.gov.in/"
     },
     {
-      "title": "UKSSSC Group C Scaler Online Form 2026",
+      "title": "Rajasthan Safai Karmchari Online Form 2026 (24,752 posts)",
+      "state": "rajasthan",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UPSSSC Junior Engineer JE (Agriculture) Online Form 2026",
       "state": "up",
       "job": "ssc",
-      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
-      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
-      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
-      "apply": "https://ssc.gov.in/",
-      "notification": "https://ssc.gov.in/",
-      "official": "https://ssc.gov.in/"
-    },
-    {
-      "title": "RRC ECOR Apprentice Online Form 2026",
-      "state": "all",
-      "job": "railway",
-      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
-      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
-      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
-      "apply": "https://ssc.gov.in/",
-      "notification": "https://ssc.gov.in/",
-      "official": "https://ssc.gov.in/"
-    },
-    {
-      "title": "MPESB Group 3 Sub Engineer & Other Post Online Form 2026",
-      "state": "up",
-      "job": "other",
       "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
       "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
       "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
@@ -69,6 +69,17 @@
   ],
   "latest_jobs": [
     {
+      "title": "MPESB Subedar Steno, ASI Online Form 2026",
+      "state": "all",
+      "job": "police",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
       "title": "MPESB MP Police Constable Online Form 2026 (7500 Posts)",
       "state": "mp",
       "job": "police",
@@ -93,6 +104,28 @@
     {
       "title": "SSC CHSL 10+2 Online Form 2026",
       "state": "all",
+      "job": "ssc",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "Rajasthan Safai Karmchari Online Form 2026 (24,752 posts)",
+      "state": "rajasthan",
+      "job": "other",
+      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
+      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
+      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
+      "apply": "https://ssc.gov.in/",
+      "notification": "https://ssc.gov.in/",
+      "official": "https://ssc.gov.in/"
+    },
+    {
+      "title": "UPSSSC Junior Engineer JE (Agriculture) Online Form 2026",
+      "state": "up",
       "job": "ssc",
       "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
       "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
@@ -137,17 +170,6 @@
     {
       "title": "PGCIL Apprentice Online Form 2026",
       "state": "all",
-      "job": "other",
-      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
-      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
-      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
-      "apply": "https://ssc.gov.in/",
-      "notification": "https://ssc.gov.in/",
-      "official": "https://ssc.gov.in/"
-    },
-    {
-      "title": "Rajasthan Safai Karmchari Online Form 2026 (24,752 posts)",
-      "state": "rajasthan",
       "job": "other",
       "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
       "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
@@ -204,17 +226,6 @@
       "title": "Odisha Anganwadi Bharti Online Form 2026",
       "state": "all",
       "job": "other",
-      "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
-      "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
-      "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
-      "apply": "https://ssc.gov.in/",
-      "notification": "https://ssc.gov.in/",
-      "official": "https://ssc.gov.in/"
-    },
-    {
-      "title": "UPSSSC Junior Engineer JE (Agriculture) Online Form 2026",
-      "state": "up",
-      "job": "ssc",
       "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
       "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
       "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
@@ -371,8 +382,8 @@
   "answer_keys": [],
   "syllabus": [
     {
-      "title": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
-      "state": "bihar",
+      "title": "UPESSC PRT Assistant Teacher Online Form 2026 (12405 Post)",
+      "state": "all",
       "job": "teacher",
       "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
       "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
@@ -382,8 +393,8 @@
       "official": "https://ssc.gov.in/"
     },
     {
-      "title": "UPESSC PRT Assistant Teacher Online Form 2026 (12405 Post)",
-      "state": "all",
+      "title": "BPSC School Teacher TRE 4.0 Online Form 2026 (32,388 Posts)",
+      "state": "bihar",
       "job": "teacher",
       "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
       "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
@@ -494,9 +505,9 @@
   ],
   "admission": [
     {
-      "title": "IIM CAT 2026 Online Form – Date Extend",
-      "state": "all",
-      "job": "other",
+      "title": "Bihar STET Online Form 2026 – Extend",
+      "state": "bihar",
+      "job": "teacher",
       "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
       "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
       "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
@@ -505,9 +516,9 @@
       "official": "https://ssc.gov.in/"
     },
     {
-      "title": "Bihar STET Online Form 2026 – Extend",
-      "state": "bihar",
-      "job": "teacher",
+      "title": "IIM CAT 2026 Online Form – Date Extend",
+      "state": "all",
+      "job": "other",
       "dates": "<li>• Application Status: <strong>Active Notice</strong></li><li>• Last Date: <strong>Check Official Notice</strong></li>",
       "fee": "<li>• General / OBC: <strong>₹ 100/-</strong></li><li>• SC / ST / Female: <strong>₹ 0/-</strong></li>",
       "eligibility": "Passed 10th / 12th / Degree from recognized board or university.",
