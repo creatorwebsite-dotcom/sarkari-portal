@@ -1,4 +1,4 @@
-name: build-and-sync
+name: sync
 
 on:
   schedule:
@@ -24,6 +24,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
+      - name: Setup Git & Sync Remote First
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -41,14 +47,9 @@ jobs:
 
       - name: Commit and Push Updated Data
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git checkout main
-          git pull --rebase origin main
           git add -A
           if git diff --staged --quiet; then
-            echo "No new updates found. Tree clean."
+            echo "No changes to commit. Working tree clean."
           else
             git commit -m "Auto-update live portal data [skip ci]"
             git push origin main
