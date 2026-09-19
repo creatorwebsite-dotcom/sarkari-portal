@@ -1,50 +1,54 @@
-name: Sarkari Naukar Data Sync
+name: build-and-sync
 
 on:
   schedule:
     - cron: '0 */4 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**.json'
+      - 'README.md'
 
 permissions:
   contents: write
 
 jobs:
-  build-and-sync:
+  sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install Python Libraries
+      - name: Install Dependencies
         run: |
-          pip install requests beautifulsoup4
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          python -m pip install --upgrade pip requests
 
-      - name: Run Scraper Engine
+      - name: Run Scraper
         run: |
           python scraper.py
 
-      - name: Verify Generated Database
-        run: |
-          cat jobs_database.json | head -n 25
-
-    t- name: Commit and Push Updated Data
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and Push Updated Data
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git fetch origin main
-          git reset --soft origin/main
+          git checkout main
+          git pull --rebase origin main
           git add -A
           if git diff --staged --quiet; then
-            echo "Nothing new to commit."
+            echo "No new updates found. Tree clean."
           else
             git commit -m "Auto-update live portal data [skip ci]"
-            git push origin HEAD:main --force
+            git push origin main
           fi
