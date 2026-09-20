@@ -14230,5 +14230,34 @@
       "check_cutoff": "https://www.freejobalert.com/cutoff-marks/",
       "official_website": "https://www.freejobalert.com/search-jobs/any-graduate-government-jobs/"
     }
+  },
+  "sarkariresultx": {
+    "title": "Sarkari Result @X",
+    "category": "Result",
+    "source": "Sarkari Result",
+    "url": "https://x.com/CmSarkariresult",
+    "important_dates": {
+      "apply_start": "Available Online",
+      "apply_last": "Check Notification",
+      "fee_last": "Check Notification",
+      "exam_date": "2026"
+    },
+    "application_fee": {
+      "gen_other_state": "₹ 500/-",
+      "sc_st_obc_ews": "₹ 250/-",
+      "portal_charge": "Extra as applicable"
+    },
+    "age_limit": {
+      "min_age": "18 Years",
+      "max_age": "35 Years"
+    },
+    "action_links": {
+      "apply_online": "",
+      "download_notification": "https://x.com/i/article/2101178713509675400",
+      "download_admit_card": "",
+      "download_answer_key": "",
+      "check_cutoff": "",
+      "official_website": "https://x.com/CmSarkariresult"
+    }
   }
 }
