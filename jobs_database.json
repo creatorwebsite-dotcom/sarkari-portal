@@ -20610,5 +20610,63 @@
       "check_cutoff": "https://www.freejobalert.com/cutoff-marks/",
       "official_website": "https://www.freejobalert.com/search-jobs/any-post-graduate-government-jobs/"
     }
+  },
+  "bcom928jobs": {
+    "title": "B.com (928 Jobs)",
+    "category": "Latest Jobs",
+    "source": "Free Job Alert",
+    "url": "https://www.freejobalert.com/search-jobs/bcom-government-jobs/",
+    "important_dates": {
+      "apply_start": "Available Online",
+      "apply_last": "Check Notification",
+      "fee_last": "Check Notification",
+      "exam_date": "As per schedule"
+    },
+    "application_fee": {
+      "gen_other_state": "₹ 500/-",
+      "sc_st_obc_ews": "₹ 250/-",
+      "portal_charge": "Extra as applicable"
+    },
+    "age_limit": {
+      "min_age": "18 Years",
+      "max_age": "35 Years"
+    },
+    "action_links": {
+      "apply_online": "https://www.freejobalert.com/articles/bsfc-recruitment-2026-apply-online-for-259-accountant-lower-grade-clerk-and-more-posts-3064459",
+      "download_notification": "",
+      "download_admit_card": "",
+      "download_answer_key": "",
+      "check_cutoff": "https://www.freejobalert.com/cutoff-marks/",
+      "official_website": "https://www.freejobalert.com/search-jobs/bcom-government-jobs/"
+    }
+  },
+  "tnmpharmround2counselling2026": {
+    "title": "TN M.Pharm Round 2 Counselling 2026",
+    "category": "Latest Jobs",
+    "source": "Free Job Alert",
+    "url": "https://www.freejobalert.com/articles/tn-mpharm-round-2-counselling-2026-check-the-online-counselling-link-3068953",
+    "important_dates": {
+      "apply_start": "Available Online",
+      "apply_last": "Check Notification",
+      "fee_last": "Check Notification",
+      "exam_date": "As per schedule"
+    },
+    "application_fee": {
+      "gen_other_state": "₹ 500/-",
+      "sc_st_obc_ews": "₹ 250/-",
+      "portal_charge": "Extra as applicable"
+    },
+    "age_limit": {
+      "min_age": "18 Years",
+      "max_age": "35 Years"
+    },
+    "action_links": {
+      "apply_online": "",
+      "download_notification": "",
+      "download_admit_card": "",
+      "download_answer_key": "",
+      "check_cutoff": "https://www.freejobalert.com/cutoff-marks/",
+      "official_website": "https://tnhealth.tn.gov.in/"
+    }
   }
 }
